@@ -1,0 +1,71 @@
+# ======================
+# Data Files (ukuran besar, jangan di-commit)
+# ======================
+data/parquet/
+data/raw/
+data/interim/
+data/processed/
+*.parquet
+*.csv
+*.json
+*.xlsx
+*.db
+*.sqlite
+
+# Outputs (generated, bukan source)
+outputs/
+
+# ======================
+# Python
+# ======================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.Python
+pip-log.txt
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# ======================
+# Jupyter Notebooks
+# ======================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ======================
+# IDE & OS
+# ======================
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ======================
+# Secrets & Config lokal
+# ======================
+.env
+.env.*
+secrets.yaml
+secrets.json
+config.local.*
+
+# ======================
+# Logs & temp
+# ======================
+*.log
+*.tmp
+*.bak
+analyze_dns*.py
